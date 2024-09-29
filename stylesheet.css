@@ -1,0 +1,381 @@
+body{
+    background-color: #edf0f5;
+    font-family: Helvetica;
+}
+
+.Main{
+    display: flex;
+}
+
+
+.WayBackMachine{
+    display: flex;
+    background-color: white;
+    border-bottom: 14px solid black;
+    border-left: 14px solid black;
+    border-right: 14px solid black;
+    border-radius: 30px;
+    margin-bottom: 22px;
+
+}
+
+.WayBackLogo{
+    display: flex;
+    width:240px;
+    height:44px;
+    margin-top:22px;
+    margin-left: 22px;
+
+}
+
+.WayBackSearch{
+    list-style: none;
+    justify-content: flex-start;
+    margin-left:-20px;
+    padding-top: -40px;
+    background-image:url("denersvær.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.WayBackInput {
+    font-size: 1.2rem;
+    font-family:"Times New Roman";
+    padding: -40px;
+    display: flex;
+    align-items: center;
+}
+
+.WayBackInputBar{
+    width: 840px;
+    font-size: 1.5rem;
+}
+
+.WayBackButton {
+    height:28px;
+}
+
+.Captures{
+    Font-size: 1.5rem;
+}
+
+.Cheat{
+    display: flex;
+}
+
+.IconLinks {
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    grid-gap: 15px;
+    background-image:url("AboutThis.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    justify-items: left;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    color: white;
+    background-color: #3b5998;
+    width: auto;
+    padding: 12px;
+}
+
+.FacebookLogo {
+    font-size: 3.4rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    margin-right: 640px;
+    display: flex;
+    margin-top: 22px;
+}
+
+.Login {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    list-style: none;
+}
+
+.LoginInPuts {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.LoginInput {
+    border: White 2px solid;
+}
+
+.LoginButton {
+    background-color: #32a852;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    width: 101%;
+}
+
+.LoginButton:hover{
+    background-color: #83c66c;
+}
+
+.LoginText {
+    color: #dfe3ee;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: right;
+    padding-bottom: -20px;
+}
+
+.LoginText2{
+    color: #dfe3ee;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: right;
+    margin-top: -5px;
+}
+
+@media (max-width: 900px) {
+    .WayBackInputBar {
+        width: 120px;
+    }
+    .FacebookLogo{
+        margin-right: 1px;
+        font-size: 2rem;
+    }
+}
+
+.FacebookInfo {
+    text-align: left;
+    background-color: #edf0f5;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.FacebookInfo h1 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: black;
+    width: 74%;
+}
+
+.FacebookInfo ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.FacebookInfoList {
+    display: flex;
+    align-items: center;
+    padding-bottom:30px;
+    padding-right: 2px;
+}
+
+.FacebookInfoList img {
+    width: 77px;
+    height: 77px;
+    padding-right: 30px;
+}
+
+.FacebookInfoList strong {
+    font-weight: bold;
+    color: black;
+    font-size:1.1rem;
+}
+
+
+.SignUp {
+    background-color:  #edf0f5;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 5px;
+    font-family: Klavika;
+}
+
+.SignUp h2 {
+    font-size: 2.2rem;
+    color: #1d2129;
+    margin-bottom: 5px;
+}
+
+.h2text {
+    font-size: 1.4rem;
+    color: #606770;
+    margin-bottom: 20px;
+}
+
+
+.NameField {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 15px;
+    width:100%;
+    padding-right:15px;
+}
+
+.InputText {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.InputPassword{
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+
+.Birthday {
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.BirthDate {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.Birthdate select {
+    padding: 10px;
+    font-size: 2rem;
+    border: 10px solid #ccc;
+    border-radius: 2px;
+}
+
+.BirthdayText {
+    font-size: 0.9rem;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.Gender {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.female{
+    margin-left: 24px;
+}
+
+.male{
+    margin-left: 60px;
+}
+
+.Terms {
+    font-size: 0.9rem;
+    color: #606770;
+    margin-bottom: 15px;
+}
+
+.TermsLinks {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.CreateAccountButton {
+    background-color: #32a852;
+    color:white;;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 66%;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.CreateAccountButton:hover {
+    background-color: #83c66c;
+}
+
+.CreatePage{
+    font-size: 0.9rem;
+}
+
+
+.Footer {
+    background-color:  white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.Languages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: blue;
+    border-bottom: 3px solid grey;
+}
+
+.Languages a{
+    text-decoration: none;
+}
+
+.LanguagePlus {
+    border: 1px solid;
+}
+
+.FooterLinks {
+    background-color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.FooterLink {
+    list-style: none;
+    text-align: left;
+}
+.FooterLink a{
+    text-decoration: none;
+}
+
+.FooterLink li{
+    margin-top: 4px;
+}
+
+.Copyright {
+    width: 100%;
+    text-align: center;
+    color: #90949c;
+    margin-top: 15px;
+}
+
